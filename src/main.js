@@ -63,6 +63,35 @@ OwnArray.push(["bicycle", "Hittachi"]);
 OwnArray.forEach(([transport, brand]) => {
     console.log(`I would like to own a ${brand} ${transport}.`);
 });
+// Question #12
+let guestArray = ["Faiz", "Talha", "Ismail"];
+guestArray.forEach((i) => {
+    console.log(i + ", please come to dinner.");
+});
+// Question #13
+console.log("\n", guestArray);
+console.log("\nSorry, " + guestArray[1] + " can't make it to dinner.");
+delete guestArray[1];
+guestArray[1] = "Saim";
+console.log(guestArray);
+guestArray.forEach((i) => {
+    console.log(i + ", please come to dinner.");
+});
+// Question #14
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
+// Question #5
 // Question #5
 // Question #5
 // Question #5
